@@ -61,7 +61,7 @@ const createButton = (page, type) => `
 }>
         <span>Page ${type === "prev" ? page - 1 : page + 1}</span>
         <svg class="search__icon">
-            <use href="/Forkify/img/icons.svg#icon-triangle-${
+            <use href="img/icons.svg#icon-triangle-${
               type === "prev" ? "left" : "right"
             }"></use>
         </svg>
