@@ -5,7 +5,7 @@ export const toggleLikeBtn = (isLiked) => {
   const iconString = isLiked ? "icon-heart" : "icon-heart-outlined";
   document
     .querySelector(".recipe__love use")
-    .setAttribute("href", `/Forkify/img/icons.svg#${iconString}`);
+    .setAttribute("href", `img/icons.svg#${iconString}`);
   // icons.svg#icon-heart-outlined
 };
 
