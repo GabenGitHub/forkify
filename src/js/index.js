@@ -176,7 +176,7 @@ const controlLike = () => {
 
         // Add like to the UI list
         likesView.renderLike(newLike);
-        console.log(state.likes);
+        // console.log(state.likes);
 
     // User HAS yet liked current recipe
     } else {
@@ -188,7 +188,7 @@ const controlLike = () => {
 
         // Remove like to the UI list
         likesView.deleteLike(currentID);
-        console.log(state.likes);
+        // console.log(state.likes);
 
     }
 
